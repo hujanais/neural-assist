@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Your Product Name</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css" />
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    </head>
+    <body>
+        <div class="div-container">
+            <nav class="div-navbar">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">Neural-Assist</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#overview">Overview</a></li>
+                        <li><a href="#screenshots">Screenshots</a></li>
+                        <li><a href="#installationIOS">iOS</a></li>
+                        <li><a href="#installationAndroid">Android</a></li>
+                        <li><a href="#installationWeb">Web</a></li>
+                        <li><a href="#quickstart">User-Guide</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div id="divContent" class="div-content" onscroll="handleScroll()">
+                <div class="div-section" id="overview">
+                    <h4 class="div-section__title">Introduction</h4>
+                    <div class="div-section__body">
+                        <p>
+                            Introducing our mobile app, Neural-Assist that provides seamless access to OpenAI's chat-gpt and dall-e machine inference algorithms. With this
+                            app, you can easily generate high-quality text and images for any purpose, from creative writing to product design. Our app is
+                            designed to be user-friendly and intuitive, allowing anyone to access the power of machine learning with just a few taps on their
+                            mobile device. Whether you're a professional writer, marketer, or designer, our app is the perfect tool to help you create
+                            compelling content that engages your audience and drives results.
+                        </p>
+                        <br />
+                        <p></p>
+                        <ul class="collection">
+                            <li class="collection-item black">
+                                <i class="material-icons red">whatshot</i> Works on mobile(iOS/Android/Windows), tablets and desktop
+                            </li>
+                            <li class="collection-item black">
+                                <i class="material-icons red">whatshot</i> Generate creative and engaging text using OpenAI's chat-gpt algorithm
+                            </li>
+                            <li class="collection-item black">
+                                <i class="material-icons red">whatshot</i> Create stunning and unique images using OpenAI's dall-e algorithm
+                            </li>
+                            <li class="collection-item black">
+                                <i class="material-icons red">whatshot</i> Save time and effort by automating the content creation process
+                            </li>
+                            <li class="collection-item black">
+                                <i class="material-icons red">whatshot</i> Enhance your creativity and productivity with cutting-edge machine learning
+                                technology
+                            </li>
+                            <li class="collection-item black">
+                                <i class="material-icons red">whatshot</i> Access these powerful algorithms on the go, from anywhere in the world
+                            </li>
+                            <li class="collection-item black">
+                                <i class="material-icons red">whatshot</i> Automatically get software updates
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="div-section" id="screenshots">
+                    <h4 class="div-section__title">Screenshots</h4>
+                    <div class="div-section__title">Convenient access to both ChatGPT and DALL-E</div>
+                    <div class="div-section__body">
+                        <div class="div-screenshots">
+                            <div class="div-pics"><img src="./screenshots/chat-screen.png" alt="chat-screen" /></div>
+                            <div class="div-pics"><img src="./screenshots/dalle-screen.png" alt="dalle-screen" /></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div-section" id="installationIOS">
+                    <h4 class="div-section__title">IPhone and IPad Installation</h4>
+                    <img width="200" height="200" src="./screenshots/pwa.png" alt="qrcode" />
+                    <div class="div-section__body">
+                        <ul class="collection">
+                            <li class="collection-item black">Open your camera app and scan the QR code above to open the website</li>
+                            <li class="collection-item black">Tap the "Share" button at the bottom of the screen.</li>
+                            <li class="collection-item black">Scroll down and tap "Add to Home Screen." If you don't see it, keep scrolling down.</li>
+                            <li class="collection-item black">Customize the name of the app if you want like 'Neural-Assist', and then tap "Add."</li>
+                            <li class="collection-item black">The PWA will now be installed on your iPhone's home screen as an app icon.</li>
+                            <li class="collection-item black">
+                                Tap the app icon to launch the PWA. You can now use the PWA just like a regular app on your iPhone.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="div-section" id="installationAndroid">
+                    <h4 class="div-section__title">Android Installation</h4>
+                    <img width="200" height="200" src="./screenshots/pwa.png" alt="qrcode" />
+                    <div class="div-section__body">
+                        <ul class="collection">
+                            <li class="collection-item black">Open your camera app and scan the QR code above to open the website</li>
+                            <li class="collection-item black">Tap the three-dot menu icon at the top right of the screen.</li>
+                            <li class="collection-item black">Tap "Add to Home Screen."</li>
+                            <li class="collection-item black">Customize the name of the app if you want like 'Neural-Assist', and then tap "Add."</li>
+                            <li class="collection-item black">The PWA will now be installed on your Android phone's home screen as an app icon.</li>
+                            <li class="collection-item black">You can now use the PWA just like a regular app on your Android phone.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="div-section" id="installationWeb">
+                    <h4 class="div-section__title">Web</h4>
+                    <div class="div-section__body">
+                        <p>
+                            Ok this is simple. Here is the URL. Open with your favorite browser.
+                            <a href="https://chat-gpt3-pwa.vercel.app" target="_blank">https://chat-gpt3-pwa.vercel.app</a>
+                        </p>
+                        <p>
+                            However if you use incognito mode, you will have to re-enter the apikey everytime you close the website so we recommend to use it in
+                            your normal browser.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="div-section" id="quickstart">
+                    <h4 class="div-section__title">Startup Guide</h4>
+                    <div class="div-section__body">
+                    <div>In order for this app to connect to the OpenAI servers, you will need to create an OpenAI ApiKey.</div>
+                    <div>Again we remind you that this APIKey is local to your device and we have absolutely no access to it.</div>
+                    <ul class="collection">
+                        <li class="collection-item black">Go to <a href="https://platform.openai.com/account/api-keys" target="_blank">OpenAI</a></li>
+                        <li class="collection-item black">Sign-up/Login</li>
+                        <li class="collection-item black">After logging in, click on your user profile icon on the upper right toolbar.</li>
+                        <li class="collection-item black">Select View API Keys and +Create new secret key</li>
+                        <li class="collection-item black">Make sure you write this secret key down because you will not be able to see it again</li>
+                        <li class="collection-item black">Tip, you can always create new ones if you need to but better to write down the one you created.</li>
+                        <li class="collection-item black">Enter this apikey into the app and never let anyone see this key!</li>
+                        <li class="collection-item black">Privacy! We do not have access to your key, it is stored locally on your device</li>
+                    </ol>
+                </div>
+                </div>
+
+                <div class="div-section" id="about">
+                    <h4 class="div-section__title">About</h4>
+                    <div class="div-section__body">
+                        <h4>Privacy</h4>
+                        <p>
+                            We take your about very seriously and this application connects directly from your device to OpenAI servers without any
+                            intermediary. The OpenAPI key is stored locally on your device. Therefore, we have absolutely ZERO access to your key and any
+                            conversational traffic.
+                        </p>
+                        <br />
+                        <h4>Disclaimers</h4>
+                        <p>
+                            This software is provided as-is, with no guarantees or warranties of any kind, express or implied. The software author shall not be
+                            held responsible for any inaccuracies or errors in the content provided by the software. The user assumes all risks associated with
+                            the use of this software, including but not limited to data loss, system damage, and other unforeseen consequences. By using this
+                            software, the user agrees to hold harmless the software author and any other contributors from any liability arising from the use of
+                            this software. The author is not related to OpenAI in anyway.
+                        </p>
+                        <h4>Contact Us</h4>
+                        <p>If you have questions or suggestions, please email us at neuralpwa@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="div-footer"><div>Copyright 2023</div>
+        </div>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#screenshots">Screenshots</a></li>
+            <li><a href="#installationIOS">iOS</a></li>
+            <li><a href="#installationAndroid">Android</a></li>
+            <li><a href="#installationWeb">Web</a></li>
+            <li><a href="#quickstart">User-Guide</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+
+        <script src="app.js"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </body>
+</html>
